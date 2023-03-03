@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeManagmentUI", "TimeManagmentUI\TimeManagmentUI.csproj", "{6763FCA4-EBAF-4852-96DC-8E7EF930E0D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeManagment", "TimeManagment\TimeManagment.csproj", "{283EF440-2163-4DFC-BE06-B92C8C1B58F4}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6763FCA4-EBAF-4852-96DC-8E7EF930E0D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6763FCA4-EBAF-4852-96DC-8E7EF930E0D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6763FCA4-EBAF-4852-96DC-8E7EF930E0D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6763FCA4-EBAF-4852-96DC-8E7EF930E0D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{283EF440-2163-4DFC-BE06-B92C8C1B58F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{283EF440-2163-4DFC-BE06-B92C8C1B58F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{283EF440-2163-4DFC-BE06-B92C8C1B58F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{283EF440-2163-4DFC-BE06-B92C8C1B58F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
